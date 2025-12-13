@@ -1,0 +1,23 @@
+{
+  "tasks": {
+    "dev": "deno run --watch main.ts"
+  },
+  "imports": {
+    "@gramio/core": "jsr:@gramio/core@^0.1.5",
+    "@gramio/files": "jsr:@gramio/files@^0.3.0",
+    "@std/assert": "jsr:@std/assert@1",
+    "@std/csv": "jsr:@std/csv@1",
+    "@sqlite": "https://deno.land/x/sqlite@v3.9.1/mod.ts",
+    "@std/dotenv": "jsr:@std/dotenv@^0.225.5",
+    "@std/uuid": "jsr:@std/uuid@^1.0.9",
+    "bcrypt": "npm:bcrypt@^6.0.0",
+    "cron": "npm:cron@^4.3.4",
+    "excel": "npm:excel@^1.0.1",
+   "load": "https://deno.land/std@0.203.0/dotenv/load.ts",
+  
+   "@config/": "./config/",
+   "@services/" :"./services/",
+    "mysql": "npm:mysql@^2.18.1",
+    "xlsx": "npm:xlsx@^0.18.5"
+  }
+}
